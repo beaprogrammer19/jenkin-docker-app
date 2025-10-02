@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/beaprogrammer19/docker-jenkins-app.git'
+                git 'https://github.com/beaprogrammer19/jenkin-docker-app.git'
             }
         }
 
